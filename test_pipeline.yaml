@@ -1,9 +1,9 @@
 trigger: none
 
 pool:
-    name: Default
+    name: ics_scan_iac
     demands:
-      - agent.name - equals ics_scan_iac
+      - agent.name - equals IcsDeevOps
 
 steps:
 - script : echo Hello, world!
