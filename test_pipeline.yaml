@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  name: :'ics_scan_iac' 
+  name: :'Azure Pipelines' 
 
 jobs:
 - job: Rapid7_IaC_Scanner
